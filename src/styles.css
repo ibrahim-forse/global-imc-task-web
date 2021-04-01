@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+li#diet-list{
+  float: left; margin-left:5px; list-style-type: none; background-color: blue; color:white; border-style:solid; border-color: blue; border-radius:8px;
+}
+
+li.horizontal-elements{
+  float: left; margin-left:5px; list-style-type: none; background-color: blue; color:white; border-style:solid; border-color: blue; border-radius:8px;
+}
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css'
